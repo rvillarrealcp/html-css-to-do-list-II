@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    background-image:url('https://media1.tenor.com/m/ygLbpp1MczQAAAAd/stop-being-lazy-do-better.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin:0;
+}
+
+/* ul{
+    color:gold;
+    font-size: 30px;
+    text-decoration: bold;
+} */
+
+h1{
+    padding: 20px;
+    color: red;
+}
+
+label{
+    padding: 25px;
+    color: gold;
+    font-size: 30px;
+    text-decoration: bold;
+}
+
+input[type='checkbox']:checked + label{
+    color: blue;
+}
+
+input[type='checkbox']{
+    width:24px;
+    height:24px;
+}
